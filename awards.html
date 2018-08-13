@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Shaji N. Karun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 1140px Grid styles for IE -->
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+    <!-- The 1140px Grid - http://cssgrid.net/ -->
+    <link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+    <!-- <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/base/jquery-ui.css" type="text/css" media="screen" /> -->
+    <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/film-accordion.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script> -->
+    <script>
+      /* <!--       only for non-mobile versions   --> */
+      $(document).ready(adjustDivHeights);
+      
+      function adjustDivHeights()
+      {
+      if($(window).width() > 767)
+      {
+      if ($(".navigation").height() > $(".content").height())
+      {
+      $(".content").height($(".navigation").height());
+      }
+      else
+      {
+      $(".navigation").height($(".content").outerHeight());
+      }
+      }
+      }
+
+    </script>
+
+
+  </head>
+
+
+  <body>
+
+
+
+
+    <div class="container">
+      <div class="row">
+	<div class="threecol navigation">
+	  <ul>
+	    <li><a href="shaji.html">Shaji Karun</a></li>
+	    <li><a href="films.html">Films</a></li>
+	    <li><a href="awards.html">Awards</a></li>
+	    <li><a href="contact.html">Contact</a></li>
+	    <!-- <li><a href="future.html">Future Projects</a></li> -->
+	    <!-- <li><a href="films.html">Audio</a></li> -->
+	    <!-- <li><a href="films.html">Downloads</a></li> -->
+	    <!-- <li><a href="links.html">Links</a></li> -->
+	    <!-- <li><a href="news.html">News & Views</a></li> -->
+	    <li><img src="images/photo1.jpg" id="align-center"></li>
+	    <li><small>
+	    email: <a href="mailto:piravi@asianetindia.com">piravi@asianetindia.com</a></small></li>
+	    <!-- <li><img src="images/logo.jpg" id="align-right" /></li> -->
+	  </ul>
+	</div>
+
+	<div class="eightcol content last">
+	  <h3> National Honors </h3>
+	  <ul>
+	  	<li> Padma Shri in 2011 </li>
+	  	<li> Orde des Arts de Lettres (1999) </li>
+	  </ul>
+	  <h3> As a director </h3>
+	  <ul>
+	  	<li> Cannes Film Festival, nominated for Palme d'Or (Best Film): Swaham (1994)</li>
+	  	<li> Cannes Film Festival, Caméra d'Or (Special Mention): Piravi (1989) </li>
+		<li> London Film Festival, Outstanding Film: Piravi (1989) </li>
+		<li> Locarno International Film Festival, Grand Jury Prize (Silver Leopard): Piravi (1989)</li>
+		<li> 1999 Cannes Film Festival: Vanaprastham was screened in the Un Certain Regard section of the festival (1999) </li>
+	  </ul>
+	  <h3> National Film Award </h3>
+	  <ul>
+	  	<li> 2009 - Best Film - Kutty Srank </li>
+	  	<li> 1999 - Best Film - Vanaprastham </li>
+	  	<li> 1997 - Best Non-Feature Film - Sham's Vision  </li>
+	  	<li> 1995 - Special Jury Award - Swaham </li>
+	  	<li> 1989 - Best Film - Piravi </li>
+	  	<li> 1989 - Best Director - Piravi </li>
+	  	<li> 1979 - Best Cinematographer (Black & White) - Thampu </li>
+	  </ul>
+	  <h3> Kerala State Film Awards </h3>
+	  <ul>
+	  	<li> 1999 - Best Director - Vanaprastham </li>
+	  	<li> 1994 - Second Best Film - Swaham </li>
+	  	<li> 1988 - Second Best Film - Piravi </li>
+	  	<li> 1986 - Best Cinematographer - Onnumuthal Poojam Vare </li>
+	  	<li> 1981 - Best Cinematographer - Estappan </li>
+	  	<li> 1977 - Best Cinematographer - Kanchana Sita </li>
+	  </ul>
+	  <h3>As a Cinematographer </h3>
+	  <ul> 
+	  	<li> Eastman Kodak Award for Excellence, Hawaii International Film Festival </li>
+	  </ul>
+	</div>
+
+
+
+      </div> <!-- row -->  
+    </div> <!-- container -->
+
+
+    <div class="container">
+      <div id = "footer">
+	Site designed and maintained by Appu Shaji
+      </div>
+    </div>
+
+
+
+  </body>
+
+</html>

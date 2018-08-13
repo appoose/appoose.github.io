@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Shaji N. Karun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 1140px Grid styles for IE -->
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+    <!-- The 1140px Grid - http://cssgrid.net/ -->
+    <link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+    <!-- <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/base/jquery-ui.css" type="text/css" media="screen" /> -->
+    <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/film-accordion.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script> -->
+    <script>
+      /* <!--       only for non-mobile versions   --> */
+      $(document).ready(adjustDivHeights);
+      
+      function adjustDivHeights()
+      {
+      if($(window).width() > 767)
+      {
+      if ($(".navigation").height() > $(".content").height())
+      {
+      $(".content").height($(".navigation").height());
+      }
+      else
+      {
+      $(".navigation").height($(".content").outerHeight());
+      }
+      }
+      }
+
+    </script>
+
+
+  </head>
+
+
+  <body>
+
+
+
+
+    <div class="container">
+      <div class="row">
+	<div class="threecol navigation">
+	  <ul>
+	    <li><a href="shaji.html">Shaji Karun</a></li>
+	    <li><a href="films.html">Films</a></li>
+	    <li><a href="awards.html">Awards</a></li>
+	    <li><a href="contact.html">Contact</a></li>
+	    <!-- <li><a href="future.html">Future Projects</a></li> -->
+	    <!-- <li><a href="films.html">Audio</a></li> -->
+	    <!-- <li><a href="films.html">Downloads</a></li> -->
+	    <!-- <li><a href="links.html">Links</a></li> -->
+	    <!-- <li><a href="news.html">News & Views</a></li> -->
+	    <li><img src="images/photo1.jpg" id="align-center"></li>
+	    <li><small>
+	    email: <a href="mailto:piravi@asianetindia.com">piravi@asianetindia.com</a></small></li>
+	    <!-- <li><img src="images/logo.jpg" id="align-right" /></li> -->
+	  </ul>
+	</div>
+
+	<div class="eightcol content last">
+	  <h3> Address </h3>
+	  TC 15/222, Udarashiromani Road <br/>
+	  Vellayambalam, Trivandrum<br/>
+	  India - 695010
+	  <h3> Email </h3>
+	  piravi@asianetindia.com
+
+    <h3> For suggestions regarding the website </h3>
+    appoose@gmail.com
+	</div>
+
+
+
+      </div> <!-- row -->  
+    </div> <!-- container -->
+
+
+    <div class="container">
+      <div id = "footer">
+	Site designed and maintained by Appu Shaji
+      </div>
+    </div>
+
+
+
+  </body>
+
+</html>

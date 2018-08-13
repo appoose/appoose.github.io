@@ -1,0 +1,320 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+/* @import url(http://fonts.googleapis.com/css?family=EB+Garamond); */
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic); 
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+    background-color: #e6e0cc;
+}
+
+
+
+.content{
+    font-family:"PT Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif; 
+    font-style:normal; 
+    border: solid;
+    border-width: 0 10px 0 0;
+    border-color: #990000;
+    padding-top: 40px;
+/*     padding-right: 25px; */
+}
+
+blockquote{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    padding: 50px;
+}
+
+blockquote #author{
+    font-style: normal;
+}
+
+h3{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 14px;
+    padding: 5px; 
+    padding-left: 10px;
+    background: #900; 
+    color: white; 
+    /*border-bottom: 1px solid white; */
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /*border-right: 1px solid white; */
+}
+
+
+ul{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.content p {
+    line-height: 150%;
+    padding-top: .35em;
+    padding-bottom: .35em;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.content a{
+    text-decoration: none;
+    color: #555;
+}
+
+.content a:hover{
+    color: #888;
+}
+
+table {
+    border-spacing: 40px 0px;
+
+
+}
+
+table #year{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size:xx-large;
+    font-weight:bold;
+    text-align:right;
+}
+
+
+.navigation{
+    /*     font-family: 'PT Sans', sans-serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #4d2e17; 
+    color: #e6e0cc;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}
+
+.navigation a {text-decoration: none; color: #e6e0cc;}
+.navigation a:hover { color: #e6e077;}
+
+.navigation ul { padding-top:40px;  padding-left:25px; padding-right:-25px; }
+.navigation li {list-style: none; padding-top:10px; }
+
+
+
+
+.emphasis{
+    color: #ee8800;
+    font-weight: bold;
+}
+
+#align-right{
+    display: inline;
+    float:right;
+}
+
+#align-center{
+    display: inline;
+    float:center;
+}
+
+
+.timeslot{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight:bold;
+    width: 320px;
+    float: left;
+    margin: 0 0 10px;  
+    padding: 10px 50px 0 0px;
+    border-top: 2px solid #4d2e17;
+    position: relative;
+}
+
+.timeslot #year{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 3em;
+    color: #900;
+    font-size:xx-large;
+}
+
+.timeslot p{
+    min-height:50px;
+    font-size: normal;
+    font-family: 'PT Sans', Helvetica Neue, sans-serif;
+    font-weight: 200;
+}
+
+.even {
+    float: right;
+    padding: 10px 0 0 100px;
+    border-color: #ca0000;
+}
+
+.even #year{
+    left: 0;
+    color: #ca0000;
+    font-size:xx-large;
+    color: #900;
+
+}
+
+.dropCap {
+	float: left;
+	font-size: 3em;
+	line-height: 0.9em;
+	padding: 0 1px 0 0;
+	font-family: 'Georgia', serif; 
+}
+
+.page-wrap { width: 300px; padding: 0 0 0 10px; margin: 0 auto; overflow: hidden; height: 100%; }
+.info-col { float: left; width: 225px; height: 100%; padding: 0px 0 0 0; }
+.info-col h2 { text-align: center; font-weight: normal; padding: 10px 0; }
+.info-col li {list-style: none; padding-top:10px; }
+dt { padding: 5px; background: #900; color: white; /*border-bottom: 1px solid white; border-right: 1px solid white;*/ }
+dd { position: absolute; left: -9999px; top: -9999px; width: 299px; background: #900; padding: 10px; color: white; border-right: 1px solid white;  font-family: 'PT Sans' sans-serif; font-weight: 300}
+
+dt:nth-of-type(1) { background: #b44835; }
+dd:nth-of-type(1) { background: #b44835; }
+
+dt:nth-of-type(5) { background: #ff7d3e; }
+dd:nth-of-type(5) { background: #ff7d3e; }
+
+dt:nth-of-type(6) { background: #ffb03b; }
+dd:nth-of-type(6) { background: #ffb03b; }
+
+dt:nth-of-type(4) { background: #c2a25c; }
+dd:nth-of-type(4) { background: #c2a25c; }
+
+dt:nth-of-type(3) { background: #4c443c; }
+dd:nth-of-type(3) { background: #4c443c; }
+
+dt:nth-of-type(2) { background: #656b60; }
+dd:nth-of-type(2) { background: #656b60; }
+
+
+dt:hover{
+    cursor: pointer;
+    color: #3da;
+/*    border: 1px;
+    border-color: black;
+    box-shadow: 2px 2px 4px 1px;*/
+}
+
+dd ul li{
+    font-family: 'PT Sans', sans-serif;
+} 
+
+
+
+.curCol { 
+    /* -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);  */
+    /* -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);  */
+    z-index: 1; 
+    position: relative; 
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+    body {
+	
+    }
+ .navigation {
+	background-image : none;
+    }
+
+}
+
+.collapse {
+    text-align: right;
+    padding-right: 25px;
+    cursor: pointer;
+    color: #add;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*.collapse-noscroll {
+    text-align: right;
+    padding-right: 25px;
+    cursor: pointer;
+    color: #add;
+    font-family: 'PT Sans Narrow', sans-serif;
+}*/
+
+
+@media handheld, only screen and (max-width: 480px) {
+    .timeslot{
+        font-family: 'Sorts Mill Goudy', serif;
+        font-weight:bold;
+        width: 320px;
+        float: right;
+        /*margin: 0 0 10px;  */
+        padding: 0px 0px 0 10px;
+        border-top: 2px solid #4d2e17;
+        position: relative;
+    }
+
+    .timeslot #year{
+        position: absolute;
+        left: 0px;
+        top: 5px;
+        font-size: 3em;
+        color: #900;
+        font-size:xx-large;
+        width: 200px;
+    }
+
+    .even {
+        /*float: right;*/
+        padding: 0px 0 0 10px;
+        border-color: #ca0000;
+    }
+    .even #year{
+        position: absolute;
+        left: 0;
+        /*right:10px;*/
+        color: #ca0000;
+        font-size:xx-large;
+        color: #900;
+
+    }
+/*    .timeslot p { float: left; width: 225px; height: 100%; padding: 0px 0 0 0; }
+*/
+    .page-wrap { padding: 0 0 0 40px;}
+}
+
+@media handheld, only screen and (max-width: 340px) {
+    .timeslot{
+        font-family: 'Sorts Mill Goudy', serif;
+        font-weight:bold;
+        width: 260px;
+        float: right;
+        /*margin: 0 0 10px;  */
+        padding: 0px 0px 0 10px;
+        border-top: 2px solid #4d2e17;
+        position: relative;
+    }
+    dd {  width: 205px; }
+    .page-wrap { padding: 0 0 0 50px;}
+    
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+	background: url(logo2x.jpg) no-repeat;
+	background-size: 212px 303px;
+	}*/
+    .navigation {
+	background-image : none;
+    }
+
+}
